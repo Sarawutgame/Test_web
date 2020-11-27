@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add data</title>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <h1>Add in There!!!</h1>
+  <div class="row">
+    <div class="col-sm-8">
+        <h4 class="page-header" style="font-family:Comic Sans MS">Product</h4>
+        <form role="form" action = "insert.php" method = "post" id="CommentForm">
+            <div class="form-group float-label-control">
+                <label for="">Product Name</label>
+                <input class="form-control" name ="Product" id="idProduct" placeholder="ชื่อสินค้า">
+            </div>
+            <h4 class="page-header">Price</h4>
+            <div class="form-group float-label-control">
+                <label for="">Enter Price</label>
+                <input class="form-control" name="Price" id="idPrice" placeholder="ราคาสินค้า"></input>
+            </div>
+            <h4 class="page-header">Amount</h4>
+            <div class="form-group float-label-control">
+                <label for="">Enter Amount</label>
+                <input class="form-control" name="Amount" id="idAmount" placeholder="จำนวนสินค้า">
+            </div>
+          <input type="submit" id="btn btn-outline-warning">
+        </form>
+    </div>
+  </div>
+</body>
+</html>
