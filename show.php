@@ -31,10 +31,10 @@
                 <div align="center">ชื่อ</div>
               </th>
               <th width="350">
-                <div align="center">นำ้หนัก</div>
+                <div align="center">ส่วนสูง</div>
               </th>
               <th width="350">
-                <div align="center">ส่วนสูง</div>
+                <div align="center">นำ้หนัก</div>
               </th>
               <th width="350">
                 <div align="center">bmi</div>
