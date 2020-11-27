@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add data</title>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <h1>Add Data</h1>
+  <div class="row">
+    <div class="col-sm-8">
+        <h4 class="page-header" style="font-family:Comic Sans MS">Name</h4>
+        <form role="form" action = "insert.php" method = "post" id="CommentForm">
+            <div class="form-group float-label-control">
+                <label for="">Name</label>
+                <input class="form-control" name ="name" id="idname" placeholder="กรอกชื่อของคุณ"></input>
+            </div>
+            <h4 class="page-header">Height</h4>
+            <div class="form-group float-label-control">
+                <label for="">Height</label>
+                <input class="form-control" name="height" id="idheight" placeholder="กรอกความสูงของคุณ"></input>
+            </div>
+            <h4 class="page-header">Weight</h4>
+            <div class="form-group float-label-control">
+                <label for="">Weight</label>
+                <input class="form-control" name="weight" id="idweight" placeholder="กรอกนำ้หนักของคุณ"></input>
+            </div>
+          <input type="submit" id="btn btn-outline-warning">
+        </form>
+    </div>
+  </div>
+</body>
+</html>
